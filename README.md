@@ -32,7 +32,6 @@ systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
 3. Retrieve Output of the User Data Script
-
 Once your instance is launched, you can access it to verify the execution of the user data script:
 
 Copy the Public IP Address of your instance from the EC2 dashboard.
